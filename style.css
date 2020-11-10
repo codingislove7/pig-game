@@ -1,0 +1,38 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+.background {
+  background: rgb(41, 49, 84);
+  background: linear-gradient(
+    90deg,
+    rgba(41, 49, 84, 0.7959558823529411) 0%,
+    rgba(22, 180, 24, 0.8) 48%,
+    rgba(41, 49, 84, 0.8) 100%
+  );
+}
+a {
+  color: yellow;
+}
+a:hover {
+  color: rgb(180, 211, 236);
+}
+
+.gameArea {
+  background: rgb(62, 80, 164);
+  background: linear-gradient(
+    90deg,
+    rgba(62, 80, 164, 1) 0%,
+    rgba(22, 163, 180, 1) 48%,
+    rgba(62, 80, 164, 1) 100%
+  );
+}
+#dice {
+  font-size: 7rem;
+}
+
+.player1arrow {
+  font-size: 5rem;
+}
+.player2arrow {
+  font-size: 5rem;
+}
